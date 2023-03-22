@@ -2,18 +2,22 @@
 {
     display: flex;
     justify-content:space-between;
-    height: 80px;
+    height: 100px;
     background-color: rgb(171, 128, 128);
-    margin: 10px 20px;
+    margin: 10px 0;
 }
 
 .links{
     display: flex;
     align-items:center ;
     margin: auto;
-    font-size: 32px;
+
 }
 
 .links a {
     text-decoration: none;
+    color: black;
+    font-size: 52px;
+    font-family: monospace;
+
 }
