@@ -6,7 +6,7 @@ import CartItems from "./CartItems";
 const Cart = (props) => {
   const { products, cartItems, getTotalCartAmount } = useContext(ShopContext);
   const totalAmount = getTotalCartAmount();
-  const navigate = useNavigate
+  const navigate = useNavigate();
   
   return (
     <div className="cart container bg-warning">
